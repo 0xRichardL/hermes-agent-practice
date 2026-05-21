@@ -13,6 +13,7 @@ services:
       - HERMES_DASHBOARD=1
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_ALLOWED_USERS=${TELEGRAM_ALLOWED_USERS}
     deploy:
       resources:
         limits:
